@@ -9,8 +9,8 @@ with col1:
     st.image("images/photo.png")
 
 with col2:
-    st.title("zeeshan kaif")
-    content = """ hi im zeeshan kaif
+    st.title("zeeshan kaif ")
+    content = """ hi im zeeshan
     """
     st.info(content)
 
@@ -28,7 +28,7 @@ with col3:
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
-       #st.write("[source code](https://")
+
         st.write(f"[source code]({row['url']})")
 
 
