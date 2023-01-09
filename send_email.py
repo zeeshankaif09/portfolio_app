@@ -1,11 +1,12 @@
 import streamlit as st
+import os
 
 
 def send_email(message):
     host = "smtp.gmail.com"
     port = 465
     user_name = "zeeshankaif09@gmail.com"
-    password = "take it password from gmail"
+    password = "Password"
     receiver = "zeeshankaif09@gmail.com"
     context = ssl.create_default_context()
 
