@@ -6,10 +6,10 @@ st.set_page_config(layout="wide")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("images/photo.png")
+    st.image("image/20200409_183241.jpg")
 
 with col2:
-    st.title("zeeshan kaif ")
+    st.title("zeeshan kaif")
     content = """ hi im zeeshan
     """
     st.info(content)
